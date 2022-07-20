@@ -1,0 +1,25 @@
+.box3{
+    display: flex;
+    justify-content: center;
+    padding: 2.5% 5%;
+    align-items: center;
+}
+.box3 .text{
+    padding: 0 1% 0 2%;
+    width: auto;
+    
+}
+.box3 img{
+    padding: 0 0 0 2%;
+    width: auto;
+}
+@media only screen and (max-width:1300px){
+    .box3{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .box3 img{
+        width: 400px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,41 @@
+.box2{
+    padding: 4% 2%;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    /* background: #5555FF; */
+    /* mix-blend-mode: lighten; */
+    filter:opacity(20);
+    padding: 2% 0;
+    mix-blend-mode: darken;
+    
+   
+    
+    
+}
+.logos img{
+    mix-blend-mode: darken;
+    /* background-color:#5555FF ; */
+}
+@media only screen and (max-width:1000px){
+    .box2{
+        align-items: center;
+        text-align: center;
+        
+        justify-content: center;
+        /* padding-left: 100px; */
+    }
+    .logos{
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* width: 410px; */
+        align-items: center;
+        
+    }
+    .logos img{
+        align-items: center;
+        padding: 2% 0;
+    }
+}

@@ -1,0 +1,49 @@
+.box1{
+    display: flex;
+    justify-content: center;
+    padding: 4% 2%;
+    /* flex-wrap: wrap; */
+}
+.box1 h1{
+    font-size: 64px;
+    color: #171740;
+}
+.box1 p{
+    font-size: 24px;
+    padding: 2% 0;
+    color: #242464;
+}
+.box1 button{
+    padding: 2% 5%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.Image img{
+    height: 400px;
+    width: 600px;
+}
+.box1 .content{
+    padding: 0 4vw 0 0;
+}
+.Image{
+    padding:0 0 0 0vw;
+}
+@media only screen and (max-width:1000px){
+    .box1{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .box1 h1{
+        font-size: 40px;
+        color: #171740;
+    }
+    .Image img{
+        height: 250px;
+        width: 350px;
+    }
+    .box1 #btns{
+        display: flex;
+        flex-direction: column;
+        padding: 2% 0;
+    }
+}

@@ -1,0 +1,24 @@
+.PriceCard{
+    
+    width:fit-content;
+    padding: 0 2% 0 0;
+    box-shadow: 0px 2px 4px rgba(9, 8, 66, 0.08), 0px 4px 24px rgba(9, 8, 66, 0.04);
+    border-radius: 16px;
+}
+.PriceCard li{
+    list-style-type: none;
+    padding: 2% 0;
+}
+.PriceCard #cost{
+    font-size: 3rem;
+}
+.PriceCard button{
+    border: 0;
+    width: 300px;
+    height: 50px;
+    /* padding: ; */
+    border-radius: 1em;
+}
+.PriceCard img{
+    padding: 0 5% 0 0 ;
+}

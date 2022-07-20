@@ -1,0 +1,43 @@
+footer{
+    background-color: #242464;
+    padding: 4% 0%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+.social{
+    width: 200px;
+}
+.social li img{
+    padding: 0 10% 0 0;
+}
+.Download{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Download button{
+    width: 150px;
+    height: 50px;
+    padding: 0% 5%;
+    border-radius: 0.5em;
+}
+@media only screen and (max-width:600px) {
+    footer{
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .Download{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 400px;
+    }
+    .Download button{
+        width: 470px;
+
+    }
+}
